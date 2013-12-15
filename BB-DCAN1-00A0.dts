@@ -5,7 +5,6 @@
     compatible = "ti,beaglebone", "ti,beaglebone-black";
     part-number = "BB-DCAN1";
     version = "00A0";
-    /* identification */
     part-number = "dcan1pinmux";
  
     fragment@0 {
@@ -13,8 +12,8 @@
         __overlay__ {
             dcan1_pins_s0: dcan1_pins_s0 {
                 pinctrl-single,pins = <
-                    0x180 0x12  /* d_can1_tx, SLEWCTRL_FAST | INPUT_PULLUP | MODE2 */
-                    0x184 0x32  /* d_can1_rx, SLEWCTRL_FAST | RECV_ENABLE | INPUT_PULLUP | MODE2 */
+                    0x180 0x12
+                    0x184 0x32
                 >;
             };
         };
