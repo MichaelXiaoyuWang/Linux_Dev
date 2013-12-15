@@ -3,7 +3,8 @@
  
 / {
     compatible = "ti,beaglebone", "ti,beaglebone-black";
- 
+    part-number = "BB-DCAN1";
+    version = "00A0";
     /* identification */
     part-number = "dcan1pinmux";
  
