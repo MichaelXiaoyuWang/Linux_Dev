@@ -1,6 +1,4 @@
-/dts-v1/;
-/plugin/;
- 
+
 /{
     compatible = "ti,beaglebone", "ti,beaglebone-black";
     part-number = "BB-DCAN1";
@@ -30,4 +28,4 @@
              pinctrl-0 = <&dcan1_pins_s0>;
         };
     };
-}/;
+};
